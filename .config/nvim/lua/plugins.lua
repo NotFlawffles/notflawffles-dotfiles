@@ -1,0 +1,25 @@
+vim.cmd [[packadd packer.nvim]]
+
+return require('packer').startup(function(use)
+    use "wbthomason/packer.nvim"
+    use "echasnovski/mini.completion"
+    use "neovim/nvim-lspconfig"
+    use "windwp/nvim-autopairs"
+    use "nvim-telescope/telescope.nvim"
+    use "nvim-neo-tree/neo-tree.nvim"
+    use "nvim-lua/plenary.nvim"
+    use "nvim-tree/nvim-web-devicons"
+    use "MunifTanjim/nui.nvim"
+    use "projekt0n/github-nvim-theme"
+    use "ellisonleao/gruvbox.nvim"
+    use "rose-pine/neovim"
+    use "abstract-ide/abstract-cs"
+    use "olimorris/onedarkpro.nvim"
+    use "maxmx03/solarized.nvim"
+    use "Mofiqul/vscode.nvim"
+    use "windwp/windline.nvim"
+    use "onsails/lspkind.nvim"
+    use "sainnhe/edge"
+    use "echasnovski/mini.animate"
+    use "rebelot/terminal.nvim"
+end)
